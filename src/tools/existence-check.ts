@@ -5,7 +5,7 @@
 import { z } from "zod";
 import { readdirSync, statSync } from "fs";
 import { join, relative, extname } from "path";
-import { glob } from "fast-glob";
+import glob from "fast-glob";
 import { ASTAnalyzer, ImportTracker } from "../analyzers/index.js";
 import {
   Schemas,

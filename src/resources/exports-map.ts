@@ -2,7 +2,7 @@
  * Exports/Imports Map Resource - Expose exports and imports as MCP resources
  */
 
-import { glob } from "fast-glob";
+import glob from "fast-glob";
 import { ImportTracker } from "../analyzers/index.js";
 import { ImportInfo, ExportInfo, ServerConfig } from "../types/index.js";
 

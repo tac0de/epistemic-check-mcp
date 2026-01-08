@@ -11,7 +11,7 @@ import { ToolResponse, HallucinationIssue, ServerConfig } from "../types/index.j
 import { ExistenceCheckTools } from "./existence-check.js";
 import { ConsistencyCheckTools } from "./consistency-check.js";
 import { APIValidationTools } from "./api-validation.js";
-import { glob } from "fast-glob";
+import glob from "fast-glob";
 
 export class PostReviewTools {
   private existenceTools: ExistenceCheckTools;

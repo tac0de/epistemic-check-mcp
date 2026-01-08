@@ -1,6 +1,6 @@
 {
   "name": "@tac0de/epistemic-check-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An MCP server that prevents AI coding agent hallucinations through comprehensive validation",
   "type": "module",
   "main": "dist/index.js",
